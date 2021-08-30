@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: EB Garamond;
+    border: 1px
+    
+}
+
+.header {
+    background-color: rgb(226, 226, 213);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.header-skills {
+    color: black;
+    letter-spacing: .16em;
+}
+
+.header-work {
+    color: black;
+    letter-spacing: .16em;
+}
+
+.header-contact {
+    color: black;
+    letter-spacing: .16em;
+}
+
+.header-line {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 4em 0;
+}
+
+.headline.box {
+    display: flex;
+}
+
+.headline1 {
+    letter-spacing: .5em;
+    font-size: 6em;
+}
+
+.hello-line-l {
+    width: 15%;
+}
+
+.hello-line-r {
+    width: 15%;
+}
+
+.about-me-box {
+  display: flex;
+  background-color: rgb(226, 226, 213);
+}
+
+.profile-img {
+    margin: 10em 0 -5em 4em;
+
+}
+
+.about-me {
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: .2em;
+    margin: 10em 0 0 2em;
+    font-size: 1.5em;
+}
+
+.bottom-line {
+    width: 99%;
+    margin: -3em 0 0 0;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: center;
+    margin: 5em 0 0 0;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 -3.1em 0;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+}
+
+.contact-imgs {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 226, 213);
+    margin: 4em 4em 4em 4em;
+}
+
+.phone-sign {
+    padding: 2em 2em 0 0;
+}
+
+.email-sign {
+    padding: 2em 2em 0 2em;
+}
+
+.instagram-sign {
+    padding: 2em 0 0 2em;
+}
