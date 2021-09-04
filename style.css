@@ -1,32 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
 body {
-    font-family: EB Garamond;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
     border: 1px
     
 }
 
-.header {
+.website {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 900px;
+}
+
+.menu {
     background-color: rgb(226, 226, 213);
     display: flex;
     justify-content: space-evenly;
+    letter-spacing: .16em;
     
 }
-
-.header-skills {
-    color: black;
-    letter-spacing: .16em;
-}
-
-.header-work {
-    color: black;
-    letter-spacing: .16em;
-}
-
-.header-contact {
-    color: black;
-    letter-spacing: .16em;
-}
+.menu {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 2rem;
+    text-decoration: none;
+  }
+  
+  .menu ul {
+    padding: 0;
+  }
+  
+  .menu li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    padding: .5rem;
+  }
+  
+  .menu a:hover{
+    color: #000000;
+    background-color: #9da996;
+  }
 
 .header-line {
     display: flex;
@@ -41,15 +66,16 @@ body {
 .headline1 {
     letter-spacing: .5em;
     font-size: 6em;
+    margin-bottom: -.4em;
 }
 
-.hello-line-l {
+/* .hello-line-l {
     width: 15%;
 }
 
 .hello-line-r {
     width: 15%;
-}
+} */
 
 .about-me-box {
   display: flex;
@@ -88,21 +114,9 @@ body {
     letter-spacing: .2em;
 }
 
-.contact-imgs {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(226, 226, 213);
-    margin: 4em 4em 4em 4em;
-}
-
-.phone-sign {
-    padding: 2em 2em 0 0;
-}
-
-.email-sign {
-    padding: 2em 2em 0 2em;
-}
-
-.instagram-sign {
-    padding: 2em 0 0 2em;
+.bottom-contacts li {
+    display: inline-block;
+    justify-content: space-around;
+    background-color: #9da996;
+    text-decoration: none;
 }
